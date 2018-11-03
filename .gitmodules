@@ -79,3 +79,6 @@
 [submodule "kits/taplytics-kit"]
 	path = kits/taplytics-kit
 	url = git@github.com:mparticle-integrations/mparticle-android-integration-taplytics.git
+[submodule "kits/clevertap-kit"]
+	path = kits/clevertap-kit
+	url = git@github.com:CleverTap/mparticle-android-integration-clevertap.git

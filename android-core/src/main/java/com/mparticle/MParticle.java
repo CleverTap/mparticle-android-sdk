@@ -1390,6 +1390,7 @@ public class MParticle {
      * @see #getSurveyUrl(int)
      */
     public interface ServiceProviders {
+        int CLEVERTAP = 0; // TODO
         int URBAN_AIRSHIP = 25;
         int APPBOY = 28;
         int TUNE = 32;
