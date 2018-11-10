@@ -28,7 +28,6 @@ public class KitIntegrationFactory {
         kits.put(MParticle.ServiceProviders.ADJUST,           "com.mparticle.kits.AdjustKit");
         kits.put(MParticle.ServiceProviders.APPBOY,           "com.mparticle.kits.AppboyKit");
         kits.put(MParticle.ServiceProviders.BRANCH_METRICS,   "com.mparticle.kits.BranchMetricsKit");
-        kits.put(MParticle.ServiceProviders.CLEVERTAP,        "com.mparticle.kits.CleverTapKit");
         kits.put(MParticle.ServiceProviders.COMSCORE,         "com.mparticle.kits.ComscoreKit");
         kits.put(MParticle.ServiceProviders.KAHUNA,           "com.mparticle.kits.KahunaKit");
         kits.put(MParticle.ServiceProviders.KOCHAVA,          "com.mparticle.kits.KochavaKit");
@@ -53,6 +52,7 @@ public class KitIntegrationFactory {
         kits.put(MParticle.ServiceProviders.INSTABOT,         "com.mparticle.kits.InstabotKit");
         kits.put(MParticle.ServiceProviders.APPSEE,           "com.mparticle.kits.AppseeKit");
         kits.put(MParticle.ServiceProviders.TAPLYTICS,        "com.mparticle.kits.TaplyticsKit");
+        kits.put(MParticle.ServiceProviders.CLEVERTAP,        "com.mparticle.kits.CleverTapKit");
         return kits;
     }
 

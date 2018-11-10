@@ -1390,7 +1390,6 @@ public class MParticle {
      * @see #getSurveyUrl(int)
      */
     public interface ServiceProviders {
-        int CLEVERTAP = 0; // TODO
         int URBAN_AIRSHIP = 25;
         int APPBOY = 28;
         int TUNE = 32;
@@ -1418,6 +1417,7 @@ public class MParticle {
         int INSTABOT = 123;
         int APPSEE = 126;
         int TAPLYTICS = 129;
+        int CLEVERTAP =135;
         String BROADCAST_ACTIVE = "MPARTICLE_SERVICE_PROVIDER_ACTIVE_";
         String BROADCAST_DISABLED = "MPARTICLE_SERVICE_PROVIDER_DISABLED_";
     }
